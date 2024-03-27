@@ -1,0 +1,26 @@
+<section class="container-fluid">
+    <div class="p-3 text-center row bg-white">
+        <h1>Buy some snacks</h1>
+    </div>
+    <div class="mt-md-5 mt-3 row g-4 justify-content-evenly align-items-center">
+        <div class="col-md-8 col-11 order-md-1 order-2">
+            <div id="snacks-container" class="row g-4 justify-content-evenly">
+
+            </div>
+        </div>
+        <div class="col-md-2 col-10 order-md-2 order-1">
+            <form class="text-light row p-4 bg-black shadow rounded" onsubmit="app.VendingController.purchaseItem()">
+                <div>
+                    <label for="">Item Code</label>
+                    <input type="text" name="code" class="form-control bg-dark text-light" maxlength="3" minlength="3"
+                        required>
+                </div>
+                <div class="text-center mt-3">
+                    <button class="w-50 btn btn-warning fw-bold">
+                        Buy
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

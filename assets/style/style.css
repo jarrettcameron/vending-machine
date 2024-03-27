@@ -1,1 +1,6 @@
 /* BASIC STYLES HERE */
+.card-img-top {
+    max-height: 14em;
+    object-fit: cover;
+    object-position: center;
+}
